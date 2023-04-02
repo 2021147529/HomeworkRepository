@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Signup</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+    <body>
+        <h1><span class="text1">Welcome to Youngwoo's Internet Programming store</span>   </h1>
+        <p><span class="text2">Signup Page</span></p>
+
+
+        <form> 
+            <fieldset class="signupbox">
+                <legend>information</legend>
+                
+            <label>ID:
+            <input type="text" name="ID" autofocus required><br>
+             </label>
+            <label>Password:
+            <input type="password" name="Password" placeholder="password" required><br>
+            </label>
+            <label>Name:
+                <input type="text" name="name" placeholder="Name" required><br>
+            </label>
+            <label>birthday:
+                <input type="date" name="date" required><br>
+            </label>
+            <label>telephone:
+                <input type="tel" name="telephone"placeholder="010-xxxx-xxxx" autocomplete="on" required><br>
+
+            </label>
+            <label>email-address:
+                <input type="email" name="email" placeholder="email-address" autocomplete="on" required><br>
+                
+            </label>
+            <label>grade:
+                <input type="number" name="grade" min="1" max="4" step="1" value="1" required>
+
+            </label>
+
+
+
+
+            </fieldset>
+        </form>
+
+        <button class="loginbutton"type="button" onclick="location.href='login.html'"> 
+            login
+        </button>
+
+
+
+    </body>
+</html>
